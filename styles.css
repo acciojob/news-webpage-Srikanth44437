@@ -1,61 +1,52 @@
-body {
-    background-color: #f5f5f5;
+/*  your css code here. If applicable */
+body{
+	background-color:#f5f5f5;
 }
-#navbar {
-    background-color: #011e29;
-    color: white;
-    align-items: center;
-    text-align: center;
-    padding: 5px;
-    font-size: 20px;
-    font-weight: 900;
-    
+.header{
+	padding:10px;
+	background-color:#011e29;
+	text-align:center;
+	color:white;
 }
-
-#header{
-    height: 100PX;
-    grid-template-columns: 350px auto 350px;
-    grid-template-rows:  200px;
-    display: grid;
-    column-gap: 10px;  
-    margin: 0 50px 0 50px; 
+.latest-news-section{
+	background-color:white;
+	border-radius:20px;
+	margin:5px;
 }
-
-
-
-#latest-news-section {
-    padding: 30px;
-    border-radius: 50px;
-    background-color: white;
-    height: fit-content;
-   
+.Main-Article{
+	background-color:white;
+	border-radius:20px;
+	margin:5px;
 }
-
-
-#mainartical {
-    text-align: center;
-    border-radius: 50px;
-    background-color: white;
-    padding: 30px;
-    height: fit-content;
+.pictorial-news{
+	background-color:white;
+	border-radius:20px;
+	margin:5px;
 }
-
-
-#pictorial {
-    padding: 30px;
-    text-align: center;
-    border-radius: 50px;
-    background-color: white;
-    position: relative;
-    height: fit-content;
-    
+.pictorial-news>img{
+	width:100px;
+	height:auto;
+}
+#Headliness{
+	
+	border-radius:10px;
+	padding:20px;
+	display:flex;
+	justify-content:space-around;
+	
+}
+h3{
+	text-align:center
+}
+h2{
+	font-size:
+}
+.Main-Article>p{
+	padding:1px;
+	text-align:center;
 }
 
-img {
-    height: 100px;
-    width: 150px;
-}
+           
 
-#nostyle{
-    list-style: none;
-}
+
+        
